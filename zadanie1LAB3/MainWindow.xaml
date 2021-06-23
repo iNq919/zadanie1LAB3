@@ -1,0 +1,21 @@
+﻿<Window x:Class="zadanie1Lab3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zadanie1Lab3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Podaj a" HorizontalAlignment="Left" Height="28" Margin="51,87,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label Content="Podaj b" HorizontalAlignment="Left" Margin="51,167,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label x:Name="wynik" Content="Wynik" HorizontalAlignment="Left" Margin="51,366,0,0" VerticalAlignment="Top" Width="468"/>
+        <TextBox x:Name="text1" HorizontalAlignment="Left" Margin="169,92,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="text2" HorizontalAlignment="Left" Margin="169,171,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="suma" Content="Suma" HorizontalAlignment="Left" Margin="51,262,0,0" VerticalAlignment="Top" Width="90" Click="suma_Click"/>
+        <Button x:Name="roznica" Content="Różnica" HorizontalAlignment="Left" Margin="184,262,0,0" VerticalAlignment="Top" Width="90" Click="roznica_Click"/>
+        <Button x:Name="iloczyn" Content="ILoczyn" HorizontalAlignment="Left" Margin="310,262,0,0" VerticalAlignment="Top" Width="90" Click="iloczyn_Click"/>
+        <Button x:Name="iloraz" Content="Iloraz" HorizontalAlignment="Left" Margin="429,262,0,0" VerticalAlignment="Top" Width="90" Click="iloraz_Click"/>
+
+    </Grid>
+</Window>
